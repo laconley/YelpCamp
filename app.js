@@ -28,7 +28,7 @@ app.use(flash());
 
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
-    secret:"Kenobi is the greatest dog ever!",
+    secret: process.env.BIGSECRET,
     resave: false,
     saveUninitialized: false
 }));
