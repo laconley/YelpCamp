@@ -11,7 +11,7 @@ router.get("/", function(req, res){
 //AUTH ROUTES
 //show register form
 router.get("/register", function(req, res) {
-    res.render("register");
+    res.render("register", {page: "register"});
 });
 //handle signup logic
 router.post("/register", function(req, res){
@@ -29,7 +29,7 @@ router.post("/register", function(req, res){
 
 //show login form
 router.get("/login", function(req, res) {
-    res.render("login");
+    res.render("login", {page: "login"});
 });
 //handling login logic
 router.post("/login", passport.authenticate("local",
