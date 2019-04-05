@@ -3,7 +3,6 @@ var router = express.Router();
 var Campground = require("../models/campground");
 var middleware = require("../middleware");
 
-
 //INDEX - show all campgrounds
 // the beginning of each route contains /campgrounds, we refactored this in our
 // app.js statements to use our route files
