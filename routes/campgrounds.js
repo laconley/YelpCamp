@@ -2,7 +2,9 @@ var express = require("express");
 var router = express.Router();
 var Campground = require("../models/campground");
 var middleware = require("../middleware");
-var MapboxClient = require("mapbox");
+
+
+
 
 //INDEX - show all campgrounds
 // the beginning of each route contains /campgrounds, we refactored this in our
