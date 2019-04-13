@@ -1,4 +1,16 @@
-body {
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
     background-color: #070707;
 }
 
@@ -39,8 +51,8 @@ h1{
     animation: imageAnimation 50s linear infinite;
 }
 
-/*background images*/
-.slideshow li:nth-child(1){
+background images
+ .slideshow li:nth-child(1){
     background-image: url(http://i.imgur.com/K3mPv14.jpg);
 }
 .slideshow li:nth-child(2){
@@ -76,7 +88,7 @@ h1{
         opacity: 0;
     }
 }
-/* Older browser support - .no-cssanimations class added by modernizr */
+ Older browser support - .no-cssanimations class added by modernizr 
 .no-cssanimations .slideshow li {
 	opacity: 1;
-}
+} */
