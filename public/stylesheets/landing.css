@@ -18,7 +18,12 @@ body {
     }
 }
 
-
+#section2 .container {
+    background-color: #222222;
+    color: #f7f7f7;
+    width: 100%;
+    margin: 0
+}
 
 
 
